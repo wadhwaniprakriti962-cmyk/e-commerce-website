@@ -1,6 +1,5 @@
 import "./Orders.css";
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
 import { FiShoppingBag, FiShoppingCart } from "react-icons/fi";
 
 function Orders({profile,orderPlaced}) {

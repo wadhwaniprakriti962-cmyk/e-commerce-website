@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Navbar.css";
 import logo from "../assets/logo.png";
-import { FiSearch, FiShoppingCart, FiUser } from "react-icons/fi";
+import { FiShoppingCart, FiUser } from "react-icons/fi";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { FiMoon, FiSun } from "react-icons/fi";

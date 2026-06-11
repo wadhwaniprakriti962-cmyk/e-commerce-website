@@ -1,6 +1,5 @@
 import "./MealGrid.css";
 import mealData from "../data/MealData";
-import { FiShoppingCart } from "react-icons/fi";
 
 const MealGrid = ({ search, selectedTypes, selectedGoals,addToCart,removeFromCart,cart }) => {
   const meals = mealData;

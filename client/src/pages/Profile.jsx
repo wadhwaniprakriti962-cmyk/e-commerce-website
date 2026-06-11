@@ -1,4 +1,3 @@
-import { useState } from "react"
 import "./Profile.css"
 import { useNavigate } from "react-router-dom";
 function Profile({user,profile,setProfile}){
