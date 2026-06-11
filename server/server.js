@@ -13,14 +13,8 @@ mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB is connected"))
   .catch((error) => console.log(error));
 
-// ✅ CORS MUST BE FIRST (before routes)
-app.use(cors({
-  origin: [
-    "http://localhost:3000",
-    "https://e-commerce-website-fn6502qbs-wadhwaniprakriti962-cmyks-projects.vercel.app"
-  ],
-  credentials: true
-}));
+
+app.use(cors());
 
 // JSON middleware
 app.use(express.json());
