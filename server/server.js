@@ -20,7 +20,8 @@ app.get("/", (req, res) => {
 const cors = require("cors");
 
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: ["http://localhost:3000",
+   "https://e-commerce-website-fn6502qbs-wadhwaniprakriti962-cmyks-projects.vercel.app"],
   credentials: true
 }));
 app.use("/api",foodRoutes)
