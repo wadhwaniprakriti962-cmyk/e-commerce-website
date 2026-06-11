@@ -10,7 +10,7 @@ const Explore = ({ cart, addToCart, removeFromCart }) => {
   const [search, setSearch] = useState("");
   const [selectedTypes, setSelectedTypes] = useState([]);
   const [selectedGoals, setSelectedGoals] = useState([]);
-const [toast, setToast] = useState("");
+
 
 
 
@@ -23,7 +23,6 @@ const [toast, setToast] = useState("");
           Discover nutritious meals tailored to your lifestyle
         </p>
       </div>
-      {toast && <div className="toast">{toast}</div>}
 
       <SearchBar
         search={search}
