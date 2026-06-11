@@ -17,7 +17,12 @@ app.use(express.json());
 app.get("/", (req, res) => {
     res.send("Backend is running");
 });
+const cors = require("cors");
 
+app.use(cors({
+  origin: "http://localhost:3000",
+  credentials: true
+}));
 app.use("/api",foodRoutes)
 app.use("/api", authRoutes)
 // Server start
