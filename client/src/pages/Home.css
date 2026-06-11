@@ -9,6 +9,12 @@
     margin-right: 50px;
     display: flex;
     flex-direction: row;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.hero-section{
+    position: relative;
+    z-index: 1;
 }
 body{
     overflow-x: hidden;
@@ -149,7 +155,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-    margin-left: -110px;
+  margin-left: -110px;
 
 }
 
@@ -165,7 +171,9 @@ body{
   transform: translateX(-50%);
   z-index: 1;
   filter: blur(20px);
+    transform: translateY(-40px) rotate(-5deg);
 }
+
 
 /* FLOAT EFFECT */
 @keyframes float{
@@ -174,11 +182,22 @@ body{
   100% { transform: translateY(0px) rotate(-5deg); }
 }
 .filters-section{
-    margin-top: -320px;
     margin-left: 42px;
     position: relative;
     z-index: 100;
 }
+.filters-section{
+    padding-top: 0px;
+    margin-top: -19px;
+    position: relative;
+    z-index: 10;
+}
+.filters-section{
+    margin-top: -280px;   /* small overlap only */
+    position: relative;
+    z-index: 5;
+}
+
 .filters-section h2{
     font-size: 2rem;
     margin-bottom: 1.5rem;
@@ -640,8 +659,8 @@ body{
   }
 
   .illustration-block img{
-    min-width: 300px;
-    width: 100%;
+
+    width: 2200px;
     margin-right: 0;
   }
 
@@ -788,6 +807,16 @@ body{
     width: fit-content;
   }
 
+}
+@media (max-width: 768px){
+  .illustration-block img{
+    width: 100%;
+    max-width: 620px;
+    min-width: unset;
+    height: auto;
+    transform: translateY(-10px) rotate(-5deg);
+    padding-bottom: 0px;
+  }
 }
 
 /* ==========================
