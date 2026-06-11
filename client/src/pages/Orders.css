@@ -1,0 +1,113 @@
+.orders-page {
+  max-width: 700px;
+  margin: 120px auto 40px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.orders-page h1 {
+  font-size: 3rem;
+  color: #15803d;
+  margin-bottom: 10px;
+}
+
+.thank-you {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Cards */
+.order-details,
+.address {
+  background: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.order-details h2,
+.address h2 {
+  color: #1b4332;
+  margin-bottom: 15px;
+}
+
+.order-details p,
+.address p {
+  font-size: 1.05rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Continue Shopping Button */
+.continue-btn {
+  background: #15803d;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  gap:12px;
+  transition: all 0.3s ease;
+}
+.continue-btn svg{
+  position: relative;
+  top: 6px;
+  left: 5px;
+}
+
+.continue-btn:hover {
+  background: #166534;
+  transform: translateY(-2px);
+}
+.orders-page h1{
+  color: rgb(59, 53, 53);
+}
+/* ==========================
+   ORDERS PAGE DARK MODE
+========================== */
+
+.dark-theme .orders-page{
+    background: #1e1e1e;
+    margin-top: 0px;
+    padding-top: 180px;
+    padding-bottom: 150px;
+}
+
+.dark-theme .orders-page h1{
+    color: white;
+}
+
+.dark-theme .thank-you{
+    color: #d1d5db;
+}
+
+.dark-theme .order-details,
+.dark-theme .address{
+    background: #2f2f2f;
+    color: white;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+
+.dark-theme .order-details h2,
+.dark-theme .address h2{
+    color: #f97316;
+}
+
+.dark-theme .order-details p,
+.dark-theme .address p{
+    color: #d1d5db;
+}
+
+.dark-theme .continue-btn{
+    background: #f97316;
+    color: white;
+}
+
+.dark-theme .continue-btn:hover{
+    background: #ea580c;
+}

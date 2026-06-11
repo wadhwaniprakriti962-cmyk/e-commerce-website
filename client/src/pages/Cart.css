@@ -1,0 +1,247 @@
+/* =========================
+   CART PAGE WRAPPER
+========================= */
+.cart-page {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #f7f7f7;
+  min-height: 100vh;
+  padding: 0 50px;
+  background: #f8fff9;
+  margin: 0 auto 40px;
+padding-top: 120px;
+margin-bottom: 0px;
+padding-bottom: 100px;
+}
+/* Heading */
+.cart-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3rem;
+   font-weight: 700;
+  color: #1b4332;
+}
+
+/* =========================
+   EMPTY CART
+========================= */
+.empty-cart {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 100px;
+}
+
+.empty-cart h2 {
+  font-size: 3rem;
+}
+
+.empty-cart p {
+  color: gray;
+  margin-top: 8px;
+}
+
+/* =========================
+   CART ITEMS SECTION
+========================= */
+.cart-items {
+  width: 100%;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+.cart-items item{
+  font-size: 2rem;
+}
+
+.coupon-section {
+  width: 100%;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.coupon-section h2 {
+  margin-bottom: 10px;
+}
+
+.coupon-box {
+  display: flex;
+  gap: 10px;
+}
+
+.coupon-box input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.coupon-box button {
+  padding: 10px 20px;
+  background: #111;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.coupon-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #444;
+}
+
+.invalid {
+  color: red;
+  margin-top: 5px;
+}
+/* =========================
+   ORDER SUMMARY
+========================= */
+.order-summary {
+  width: 100%;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.order-summary h2 {
+  margin-bottom: 15px;
+}
+
+.order-summary p {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+.order-summary hr {
+  margin: 15px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+.order-summary h3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+/* =========================
+   CHECKOUT BUTTON
+========================= */
+.checkout-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.checkout-btn:hover {
+  background: #16a34a;
+}
+
+/* =========================
+   CART ITEM
+========================= */
+.cart-items :div {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .cart-page {
+    padding: 12px;
+  }
+
+  .order-summary,
+  .cart-items {
+    padding: 15px;
+  }
+}
+/* ==========================
+   CART PAGE DARK MODE
+========================== */
+
+.dark-theme .cart-page{
+    background: #1e1e1e;
+}
+
+.dark-theme .cart-page h1{
+    color: white;
+}
+
+.dark-theme .empty-cart h2{
+    color: white;
+}
+
+.dark-theme .empty-cart p{
+    color: #d1d5db;
+}
+
+.dark-theme .cart-items,
+.dark-theme .coupon-section,
+.dark-theme .order-summary{
+    background: #2f2f2f;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.dark-theme .coupon-box input{
+    background: #3a3a3a;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-theme .coupon-box button{
+    background: #f97316;
+    color: white;
+}
+
+.dark-theme .coupon-box button:hover{
+    background: #ea580c;
+}
+
+.dark-theme .coupon-info{
+    color: #d1d5db;
+}
+
+.dark-theme .order-summary p,
+.dark-theme .order-summary h2,
+.dark-theme .order-summary h3{
+    color: white;
+}
+
+.dark-theme .order-summary hr{
+    border-top: 1px solid #555;
+}
+
+.dark-theme .checkout-btn{
+    background: #f97316;
+    color: white;
+}
+
+.dark-theme .checkout-btn:hover{
+    background: #ea580c;
+}
+.dark-theme .cart-page{
+    background: #1e1e1e !important;
+}

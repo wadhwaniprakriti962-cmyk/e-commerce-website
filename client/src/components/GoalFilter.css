@@ -1,0 +1,38 @@
+.goal-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.goal-chip {
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+}
+
+.goal-chip.active {
+  background: #2196f3;
+  color: white;
+  border-color: #2196f3;
+}
+/* ==========================
+   GOAL FILTER DARK MODE
+========================== */
+
+.dark-theme .goal-chip{
+    background: #2f2f2f;
+    color: white;
+    border-color: #555;
+}
+
+.dark-theme .goal-chip.active{
+    background: #f97316;
+    border-color: #f97316;
+    color: white;
+}
+
+.dark-theme .goal-chip:hover{
+    border-color: #f97316;
+}

@@ -1,0 +1,100 @@
+.profile-page{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8fff9;
+    padding: 30px;
+}
+
+.profile-card{
+    width: 100%;
+    max-width: 550px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.profile-card h1{
+    text-align: center;
+    color: #166534;
+    margin-bottom: 25px;
+}
+
+.profile-card label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.profile-card input,
+.profile-card textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    outline: none;
+}
+
+.profile-card button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #22c55e;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* ==========================
+   PROFILE PAGE DARK MODE
+========================== */
+
+.dark-theme .profile-page{
+    background: #1e1e1e;
+    padding-top: 120px;
+}
+
+.dark-theme .profile-card{
+    background: #2f2f2f;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.dark-theme .profile-card h1{
+    color: #f97316;
+}
+
+.dark-theme .profile-card label{
+    color: #e5e7eb;
+}
+
+.dark-theme .profile-card input,
+.dark-theme .profile-card textarea{
+    background: #3a3a3a;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-theme .profile-card input::placeholder,
+.dark-theme .profile-card textarea::placeholder{
+    color: #9ca3af;
+}
+
+.dark-theme .profile-card input:focus,
+.dark-theme .profile-card textarea:focus{
+    border-color: #f97316;
+}
+
+.dark-theme .profile-card button{
+    background: #f97316;
+    color: white;
+}
+
+.dark-theme .profile-card button:hover{
+    background: #ea580c;
+}
