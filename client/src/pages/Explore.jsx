@@ -11,10 +11,7 @@ const Explore = ({ cart, addToCart, removeFromCart }) => {
   const [selectedTypes, setSelectedTypes] = useState([]);
   const [selectedGoals, setSelectedGoals] = useState([]);
 const [toast, setToast] = useState("");
-const showToast = (msg) => {
-  setToast(msg);
-  setTimeout(() => setToast(""), 2000);
-};
+
 
 
   return (
