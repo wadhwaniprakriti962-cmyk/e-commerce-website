@@ -193,9 +193,19 @@ body{
     z-index: 10;
 }
 .filters-section{
-    margin-top: -280px;   /* small overlap only */
+    margin-top: -80px;
     position: relative;
     z-index: 5;
+}
+.filters-section{
+    margin-left: 42px;
+    margin-top: 0px;
+    position: relative;
+    z-index: 5;
+}
+.illustration-block img{
+    width: 900px;
+    height: auto;
 }
 
 .filters-section h2{
